@@ -50,3 +50,11 @@ Project Euler solutions in Python 2 www.projecteuler.net/
 	<li>Simple stuff. Used the same function from problem 3</li>
 	<li>Added a counter and a while loop to find the nth prime number</li>
 </ul>
+
+<h4>Problem 8</h4>
+<ul>
+	<li>Done! 7/13/2013</li>
+	<li>Converted thousand digit number into string in order to create a list of its digits</li>
+	<li>Then simply made another list of sublists of five consecutive numbers incrementally</li>
+	<li>Used operator module tip from <a href="http://stackoverflow.com/questions/2104782/returning-the-product-of-a-list">StackOverflow</a> to return a list of the products of each sublist</li>
+</ul>
