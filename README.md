@@ -24,3 +24,10 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Another function to find prime factors of a given int</li>
     <li>OverflowError solved by using the square root of the given int as the end of the range</li>
 </ul>
+
+<h4>Problem 4</h4>
+<ul>
+    <li>Done! 7/13/2013</li>
+    <li>Used integers as strings to determine if the product was a palindrome</li>
+    <li>Decided to make the program scalable also by using integeres as strings (concatenated char zeroes)</li>
+</ul>
