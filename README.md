@@ -31,3 +31,9 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Used integers as strings to determine if the product was a palindrome</li>
     <li>Decided to make the program scalable also by using integeres as strings (concatenated char zeroes)</li>
 </ul>
+
+<h4>Problem 5</h4>
+<ul>
+	<li>Done! 7/13/2013</li>
+	<li>Took optimization advice from  <a href="http://stackoverflow.com/questions/8024911/project-euler-5-in-python-how-can-i-optimize-my-solution">StackOverflow</a></li>
+</ul>
