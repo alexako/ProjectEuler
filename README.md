@@ -28,7 +28,7 @@ Project Euler solutions in Python 2 www.projecteuler.net/
 <h4>Problem 4</h4>
 <ul>
     <li>Done! 7/13/2013</li>
-    <li>Used integers as strings to determine if the product was a palindrome</li>
+    <li>Used integers as strings to determine if the product was a palindrome.</li>
     <li>Decided to make the program scalable also by using integeres as strings (concatenated char zeroes)</li>
 </ul>
 
@@ -42,4 +42,11 @@ Project Euler solutions in Python 2 www.projecteuler.net/
 <ul>
 	<li>Done! 7/13/2013</li>
 	<li>Too easy.</li>
+</ul>
+
+<h4>Problem 7</h4>
+<ul>
+	<li>Done! 7/13/2013</li>
+	<li>Simple stuff. Used the same function from problem 3</li>
+	<li>Added a counter and a while loop to find the nth prime number</li>
 </ul>
