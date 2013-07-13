@@ -65,9 +65,17 @@ Project Euler solutions in Python 2 www.projecteuler.net/
 	<li>Tried multiples of 3, 4, and 5; unsuccessful</li>
 	<li>Resorted to Pythagorean Triples construct:</li>
 	<ul>
-		<li>Where n and m are any two positive integers (m < n):</li>
+		<li>Where n and m are any two positive integers (m &lt; n):</li>
 		<li><a href="http://www.codecogs.com/eqnedit.php?latex=a&space;=&space;n^{2}&space;-&space;m^{2}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?a&space;=&space;n^{2}&space;-&space;m^{2}" title="a = n^{2} - m^{2}" /></a></li>
 		<li><a href="http://www.codecogs.com/eqnedit.php?latex=b&space;=&space;2nm" target="_blank"><img src="http://latex.codecogs.com/gif.latex?b&space;=&space;2nm" title="b = 2nm" /></a></li>
 		<li><a href="http://www.codecogs.com/eqnedit.php?latex=c&space;=&space;n^{2}&space;&plus;&space;m^{2}" target="_blank"><img src="http://latex.codecogs.com/gif.latex?c&space;=&space;n^{2}&space;&plus;&space;m^{2}" title="c = n^{2} + m^{2}" /></a></li>
 	</ul>
+</ul>
+
+<h4>Problem 10</h4)
+<ul>
+	<li>Done! 7/13/2013</li>
+	<li>Used same fuctions from problem 3 and 7</li>
+	<li>In is_prime(), I made the end of the range the square root of the given int to drastically speed up the program</li>
+	<li>Earned 'Decathlete' award: completed 10 consecutive problems</li>
 </ul>
