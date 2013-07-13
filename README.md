@@ -72,7 +72,7 @@ Project Euler solutions in Python 2 www.projecteuler.net/
 	</ul>
 </ul>
 
-<h4>Problem 10</h4)
+<h4>Problem 10</h4>
 <ul>
 	<li>Done! 7/13/2013</li>
 	<li>Used same fuctions from problem 3 and 7</li>
