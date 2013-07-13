@@ -79,3 +79,10 @@ Project Euler solutions in Python 2 www.projecteuler.net/
 	<li>In is_prime(), I made the end of the range the square root of the given int to drastically speed up the program</li>
 	<li>Earned 'Decathlete' award: completed 10 consecutive problems</li>
 </ul>
+
+<h4>Problem 11</h4>
+<ul>
+	<li>Incomplete 7/13/2013</li>
+	<li>Turned in string into grid of integers</li>
+	<li>Grouped factors into sublists of horizontal, vertical, diagonal left and right</li>
+</ul>
