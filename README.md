@@ -87,3 +87,10 @@ Project Euler solutions in Python 2 www.projecteuler.net/
 	<li>Grouped factors into sublists of horizontal, vertical, diagonal left and right</li>
 	<li>Changed range limits to fix index issues</li>
 </ul>
+
+<h4>Problem 12</h4>
+<ul>
+	<li>Incomplete 7/14/2013</li>
+	<li>Need to optimize</li>
+	<li>get_number_of_factors() is problematic</li>
+</ul>
