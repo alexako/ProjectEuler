@@ -82,7 +82,8 @@ Project Euler solutions in Python 2 www.projecteuler.net/
 
 <h4>Problem 11</h4>
 <ul>
-	<li>Incomplete 7/13/2013</li>
+	<li>Done! 7/14/2013</li>
 	<li>Turned in string into grid of integers</li>
 	<li>Grouped factors into sublists of horizontal, vertical, diagonal left and right</li>
+	<li>Changed range limits to fix index issues</li>
 </ul>

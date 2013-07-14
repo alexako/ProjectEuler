@@ -12,31 +12,34 @@ def setup_grid(string):
 def get_factors(grid):
 	products = []	# Products of each substring in factors
 	factors = []	# Substrings of 4 ints
-	horizontal = []	# Factors horizontally
-	vertical = []	# Factors vertically
-	diagonal_r = []	# Factors diagonally right
-	diagonal_l = []	# factors diagonally left
-	
-	# Substring concepts from Problem 8
-	for x in xrange(len(grid)-4):
-		for y in xrange(len(grid)-4):
+
+	for x in xrange(3, len(grid)-1):
+		for y in xrange(3, len(grid)-1):
 			
 			# Get horizontal factors
-			horizontal.append(grid[x][y:y+4])
+			factors.append([grid[x-3][y-3],
+							grid[x-3][y-2],
+							grid[x-3][y-1],
+							grid[x-3][y]])
 			
 			# Get vertical factors
+			factors.append([grid[x-3][y-3], 
+							grid[x-2][y-3],
+							grid[x-1][y-3],
+							grid[x][y-3]])
+						
+			# Get diagonally right
+			factors.append([grid[x-3][y-3],
+							grid[x-2][y-2],
+							grid[x-1][y-1],
+							grid[x][y]])
 			
-			# Get diagonal_r
-			
-			# Get diagonal_l
-			
-#	print "horizontal: ", horizontal
-			
-	factors.extend(horizontal)
-	factors.extend(vertical)
-	factors.extend(diagonal_r)
-	factors.extend(diagonal_l)
-
+			# Get diagonally left
+			factors.append([grid[x][y-3],
+							grid[x-1][y-2],
+							grid[x-2][y-1],
+							grid[x-3][y]])
+							
 	for nums in factors:
 		products.append(reduce(mul, nums))
 
