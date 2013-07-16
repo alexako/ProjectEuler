@@ -2,6 +2,7 @@ ProjectEuler
 ============
 
 Project Euler solutions in Python 2 www.projecteuler.net/
+<br>
 <img src="http://projecteuler.net/profile/alexako.png">
 
 
