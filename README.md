@@ -2,6 +2,8 @@ ProjectEuler
 ============
 
 Project Euler solutions in Python 2 www.projecteuler.net/
+<img src="http://projecteuler.net/profile/alexako.png">
+
 
 <h3>Progress Log</h3>
 
@@ -95,5 +97,5 @@ Project Euler solutions in Python 2 www.projecteuler.net/
 	<li>get_number_of_factors() is problematic</li>
 	<li>Fixed! 7/16/2013</li>
 	<li>Used xrange() instead of range() to reduce resource usage</li>
-	<li>get_number_of_factors() rewritten with advice from <a href= "http://codereview.stackexchange.com/questions/28527/simple-code-that-finds-number-of-factors-crashes-my-computer-is-there-a-workaro/28533?noredirect=1#28533">codereview.stachexchange.com</a></li>
+	<li>get_number_of_factors() refactored with advice from <a href= "http://codereview.stackexchange.com/questions/28527/simple-code-that-finds-number-of-factors-crashes-my-computer-is-there-a-workaro/28533?noredirect=1#28533">codereview.stackexchange.com</a></li>
 </ul>
