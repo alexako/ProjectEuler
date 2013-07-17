@@ -93,10 +93,16 @@ Project Euler solutions in Python 2 www.projecteuler.net/
 
 <h4>Problem 12</h4>
 <ul>
-	<li>Done 7/16/2013</li>
+	<li>Done! 7/16/2013</li>
 	<li>Need to optimize</li>
 	<li>get_number_of_factors() is problematic</li>
 	<li>Fixed! 7/16/2013</li>
-	<li>Used xrange() instead of range() to reduce resource usage</li>
+	<li>Optimized by using xrange() instead of range() to reduce resource usage</li>
 	<li>get_number_of_factors() refactored with advice from <a href= "http://codereview.stackexchange.com/questions/28527/simple-code-that-finds-number-of-factors-crashes-my-computer-is-there-a-workaro/28533?noredirect=1#28533">codereview.stackexchange.com</a></li>
+</ul>
+
+<h4>Problem 16</h4>
+<ul>
+    <li>Done! 7/17/2013</li>
+    <li>Another one-liner</li>
 </ul>
