@@ -106,3 +106,11 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Done! 7/17/2013</li>
     <li>Another one-liner</li>
 </ul>
+
+<h4>Problem 17</h4>
+<ul>
+    <li>Done! 7/17/2013</li>
+    <li>Could be done better. Mostly hardcoded.</li>
+    <li>Used a dictionary to store number words</li> 
+    <li>Used similar concept from problem 16</li>
+<ul>
