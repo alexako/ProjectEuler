@@ -1,4 +1,7 @@
-ONE_TO_NINETEEN = {0: ' ',
+#!/bin/python
+
+
+ONE_TO_NINETEEN = {0: '',
                    1: 'one',
                    2: 'two',
                    3: 'three',
@@ -28,7 +31,7 @@ HIGHERS = {2: 'twenty',
            7: 'seventy',
            8: 'eighty',
            9: 'ninety',
-           0: ' '
+           0: ''
            }
 
 
