@@ -1,37 +1,35 @@
-ONES = {1:'one',
-        2:'two',
-        3:'three',
-        4:'four',
-        5:'five',
-        6:'six',
-        7:'seven',
-        8:'eight',
-        9:'nine',
-        0:' '
-        }
+ONE_TO_NINETEEN = {0: ' ',
+                   1: 'one',
+                   2: 'two',
+                   3: 'three',
+                   4: 'four',
+                   5: 'five',
+                   6: 'six',
+                   7: 'seven',
+                   8: 'eight',
+                   9: 'nine',
+                   10: 'ten',
+                   11: 'eleven',
+                   12: 'twelve',
+                   13: 'thirteen',
+                   14: 'fourteen',
+                   15: 'fifteen',
+                   16: 'sixteen',
+                   17: 'seventeen',
+                   18: 'eighteen',
+                   19: 'nineteen'
+                   }
 
-TENS = {10:'ten',
-        11:'eleven',
-        12:'twelve',
-        13:'thirteen',
-        14:'fourteen',
-        15:'fifteen',
-        16:'sixteen',
-        17:'seventeen',
-        18:'eighteen',
-        19:'nineteen'
-        }
-
-HIGHERS = {2:'twenty',
-            3:'thirty',
-            4:'forty',
-            5:'fifty',
-            6:'sixty',
-            7:'seventy', 
-            8:'eighty',
-            9:'ninety',
-            0:' ' 
-            }
+HIGHERS = {2: 'twenty',
+           3: 'thirty',
+           4: 'forty',
+           5: 'fifty',
+           6: 'sixty',
+           7: 'seventy',
+           8: 'eighty',
+           9: 'ninety',
+           0: ' '
+           }
 
 
 def transcribe(number):
@@ -39,25 +37,25 @@ def transcribe(number):
     digits = [int(n) for n in str(number)]
 
     if len(digits) == 3:
-        string += ONES[digits[0]]
+        string += ONE_TO_NINETEEN[digits[0]]
         string += "hundred"
         if not (digits[1] == 0 and digits[2] == 0):
             string += "and"
         if digits[1] == 1:
-            string += TENS[number % 100]
+            string += ONE_TO_NINETEEN[number % 100]
         else:
             string += HIGHERS[digits[1]]
-            string += ONES[digits[2]]
+            string += ONE_TO_NINETEEN[digits[2]]
 
     elif len(digits) == 2:
-        if number in TENS:
-            string += TENS[number]
+        if number in ONE_TO_NINETEEN:
+            string += ONE_TO_NINETEEN[number]
         else:
             string += HIGHERS[digits[0]]
-            string += ONES[digits[1]]
+            string += ONE_TO_NINETEEN[digits[1]]
 
     elif len(digits) == 1:
-            string += ONES[number]
+            string += ONE_TO_NINETEEN[number]
 
     else:
         string = "onethousand"
@@ -66,7 +64,7 @@ def transcribe(number):
 
 
 def letter_count(string):
-	return len(''.join(string.strip().split()))
+    return len(''.join(string.strip().split()))
 
 
 if __name__ == '__main__':
