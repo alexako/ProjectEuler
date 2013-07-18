@@ -1,5 +1,6 @@
 #!/bin/python
 
+#import math
 
 def get_factorial(num):
 
@@ -14,3 +15,5 @@ def get_sum_of_digits(num):
 
 if __name__ == '__main__':
     print "Answer found: ", get_sum_of_digits(get_factorial(100))
+    # One-liner
+#   print sum(int(n) for n in str(math.factorial(100)))
