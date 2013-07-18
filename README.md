@@ -137,3 +137,10 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Used the factorial formula given in problem description: n! = n * (n - 1)</li>
     <li>Turned the factorial into a string to get the sum of digits</li>
 </ul>
+
+<h4>Problem 25</h4>
+<ul>
+    <li>Done! 7/18/2013</li>
+    <li><a href="http://projecteuler.net/problem=25">projecteuler.net/problem=25</li>
+    <li>Used the same fibonacci series generator from  problem 2 with slight refactorization</li>
+</ul>
