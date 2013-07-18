@@ -114,3 +114,11 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Used a dictionary to store number words</li> 
     <li>Used similar concept from problem 16</li>
 <ul>
+
+<h4>Problem 20</h4>
+<ul>
+    <li>Done! 7/18/2013</li>
+    <li>Pretty much straight forward</li>
+    <li>Used the factorial formula given in problem description: n! = n * (n - 1)</li>
+    <li>Turned the factorial into a string to get the sum of digits</li>
+</ul>
