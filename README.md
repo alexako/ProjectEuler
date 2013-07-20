@@ -122,6 +122,14 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Used list comprehension to get sum of the 50-digit numbers and printed the first ten digits</li>
 </ul>
 
+<h4>Problem 14</h4>
+<ul>
+    <li>Done! 7/20/2013</li>
+    <li><a href="http://projecteuler.net/problem=14">projecteuler.net/problem=14</a></li>
+    <li>Used a for loop to iterate the starting numbers and a while loop to find/count the chain</li>
+    <li>Had an 'Off-by-one' error when counting the chain</li>
+</ul>
+
 <h4>Problem 16</h4>
 <ul>
     <li>Done! 7/17/2013</li>
