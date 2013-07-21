@@ -140,8 +140,9 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Left script running overnight and still no result</li>
     <li>After a bit of research in combinations and permutations, I found a formula for the total number of non-repeating combinations:</li>
         <ul>
-            <li>Binomial Coefficient</li>
+            <li>Binomial Coefficient (where n is the number of things to choose from, and you choose r of them and repetition and order don't matter)</li>
             <li><img src="http://www.mathsisfun.com/combinatorics/images/combinations-no-repeat.png"></li>
+            <li><a href="http://www.mathsisfun.com/combinatorics/combinations-permutations.html">Combinations and Permutations</a></li>
         </ul>
     <li>Implentation of formula and refactoring produced immensely faster results:</li>
         <ul>
