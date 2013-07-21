@@ -132,7 +132,22 @@ Project Euler solutions in Python 2 www.projecteuler.net/
 
 <h4>Problem 15</h4>
 <ul>
-    <li>Incomplete 7/21/2013</li>
+    <li>Done! 7/21/2013</li>
+    <li><a href="http://projecteuler.net/problem=15">projecteuler.net/problem=15</a></li>
+    <li>Used a horrific brute force method at first</li>
+    <li>Problem most likely lies in the random generator of the next move</li>
+    <li>With many, many trials and lots of brainstorming, I concluded that the total number of moves is equal to twice the size of the grid (20 Right, 20 Down)</li>
+    <li>Left script running overnight and still no result</li>
+    <li>After a bit of research in combinations and permutations, I found a formula for the total number of non-repeating combinations:</li>
+        <ul>
+            <li>Binomial Coefficient</li>
+            <li><img src="http://www.mathsisfun.com/combinatorics/images/combinations-no-repeat.png"></li>
+        </ul>
+    <li>Implentation of formula and refactoring produced immensely faster results:</li>
+        <ul>
+            <li>Brute force method: inconclusive (runtime &gt 10 hours)</li>
+            <li>Binomial Coefficient: 0.002 seconds </li>
+        </ul>
 </ul>
 
 <h4>Problem 16</h4>

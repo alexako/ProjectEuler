@@ -1,6 +1,6 @@
 #!/bin/python
 
-
+import math
 import random
 import sys
 
@@ -30,9 +30,6 @@ def find_route(grid_size):
             x = 0
             y = 0
 
-#        sys.stdout.write("\rCurrent Path: %s" % ", ".join(path))
-#        sys.stdout.flush()
-
         if len(path) >= limit * 2:
             if x == limit and y == limit:
                 break
@@ -47,25 +44,28 @@ def find_route(grid_size):
 
 def count_paths():
 
-    paths = []
-    path_count = 0
-    rep = 0
+#    paths = []
+#    path_count = 0
+#    rep = 0
 
-    while True:
-        rep += 1
-        path = find_route(size)
-        if path not in paths:
+#    while True:
+#        rep += 1
+#        path = find_route(size)
+#        if path not in paths:
 
-            sys.stdout.write("\rPath Found: %s " % path[:len(path)/2])
-            sys.stdout.flush()
+#            sys.stdout.write("\rPath Found: %s \t Path Count: %d " % (path[:len(path)/4], path_count+1))
+#            sys.stdout.flush()
 
-            paths.append(path)
-            path_count += 1
+#            paths.append(path)
+#            path_count += 1
 
-        if rep >= 100000:
-            break
+#        if rep >= 1000000000:
+#            break
 
-    return "\n\nPath count: %d\n" % path_count
+#    return "\n\nPath count: %d\n" % path_count
+
+    # One-liner
+    return (math.factorial(size*2)) / (math.factorial(size) * math.factorial(size))
 
 if __name__ == '__main__':
     size = 20
