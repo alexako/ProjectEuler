@@ -146,7 +146,7 @@ Project Euler solutions in Python 2 www.projecteuler.net/
         </ul>
     <li>Implentation of formula and refactoring produced immensely faster results:</li>
         <ul>
-            <li>Brute force method: inconclusive (runtime &gt 10 hours)</li>
+            <li>Brute force method: inconclusive (runtime &gt; 10 hours)</li>
             <li>Binomial Coefficient: 0.002 seconds </li>
         </ul>
 </ul>
