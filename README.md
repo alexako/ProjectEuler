@@ -191,3 +191,10 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li><a href="http://projecteuler.net/problem=25">projecteuler.net/problem=25</a></li>
     <li>Used the same fibonacci series generator from  problem 2 with slight refactorization</li>
 </ul>
+
+<h4>Problem 48</h4>
+<ul>
+    <li>Done! 7/23/2013</li>
+    <li>Another easy one</li>
+    <li>Could have done a one-liner but opted for readability instead</li>
+</ul>
