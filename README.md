@@ -192,6 +192,13 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Used the same fibonacci series generator from  problem 2 with slight refactorization</li>
 </ul>
 
+<h4>Problem 29</h4>
+<ul>
+    <li>Done! 7/24/2013</li>
+    <li>Completed in both Python and C++. Was a lot easier to code in Python</li>
+    <li>Implemented recently learned concept of vectors (still not confident with them yet)</li>
+</ul>
+
 <h4>Problem 47</h4>
 <ul>
     <li>Done! 7/24/2013</li>
