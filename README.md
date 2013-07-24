@@ -197,6 +197,7 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Done! 7/24/2013</li>
     <li>Used a brute force method</li>
     <li>Fairly easy, however, limiting the range to the sqrt of num doesn't print the correct answer</li>
+    <li>Could use a lot of optimization: runtime > 1500 seconds</li>
 </ul>
 
 <h4>Problem 48</h4>
