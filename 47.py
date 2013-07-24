@@ -27,13 +27,12 @@ def has_4_prime_factors(num):
 
 def find_consecutive_nums():
     num = 5
-    while num < 134500:
+    while True:
         if has_4_prime_factors(num) and has_4_prime_factors(num + 1) and has_4_prime_factors(num + 2) and has_4_prime_factors(num + 3):
             return (num, num + 1, num + 2, num + 3)
 
         num += 1
     
-    return "No answer found"
 
 if __name__ == '__main__':
     print "Answer found: ", find_consecutive_nums()
