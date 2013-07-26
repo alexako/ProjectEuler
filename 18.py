@@ -6,14 +6,22 @@ def find_path_of_largest(triangle):
 
     tri = [[int(num) for num in row.split()] for row in triangle.split('\n')]
 
-    while True:
-        row = len(tri) - 2      # Start at 2nd to last row
+    size = len(tri) - 3     # Start at second to last row
 
-        for digit in range(row):
-            if tri[row][digit] + tri[row + 1][digit] >= tri[row][digit] + tri[row + 1][digit + 1]:
-                tri[row][digit] = tri[row][digit] + tri[row + 1][digit]
-            else:
-                tri[row][digit] = tri[row][digit] + tri[row + 1][digit + 1]
+    while size:
+        for row in range(size, 0, -1):
+            for digit in range(row+1):
+
+                if tri[row][digit] + tri[row + 1][digit] >= tri[row][digit] + tri[row + 1][digit + 1]:
+                    print "Added: ", tri[row][digit], "+", tri[row+1][digit]
+                    tri[row][digit] = tri[row][digit] + tri[row + 1][digit]
+                    print "New sum: ", tri[row][digit]
+                else:
+                    print "Added: ", tri[row][digit], "+", tri[row+1][digit]
+                    tri[row][digit] = tri[row][digit] + tri[row + 1][digit + 1]
+                    print "New sum: ", tri[row][digit]
+
+        size -= 1
 
     return tri[0][0]
 
