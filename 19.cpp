@@ -35,10 +35,9 @@ bool sundayStart(int days, bool leapYear) {
 }
 
 
-int countSundays(int year, int endYear, int months[], int overflow = 2) {
-
-    int days, sundays = 0;
-
+void countSundays(int& sundays, int year, int endYear, int months[], int overflow = 2) {
+    /* January of 1901 starts on Tuesday; has an 'overflow' of 2 */
+    int days;
 
     // Add overflow to January
     months[0] = months[0] + overflow;
@@ -47,20 +46,21 @@ int countSundays(int year, int endYear, int months[], int overflow = 2) {
         for (int month = 0; month < 12; month++) {
             if (sundayStart(months[month], isLeapYear(year)))
                 sundays++;
-            while (months[month] > 0)
-                days = months[month];
-                days -= 7;
-            overflow = months[month] * -1;
 
-            if (month < 12)
+            days = months[month];
+            while (days > 0) {
+                days -= 7;
+            }
+            overflow = days * -1;
+
+            if (month < 11)
                 months[month+1] = months[month+1] + overflow;
-            else
-                countSundays(year+1, endYear, months, overflow);
-            
+            else { // if end of year, add overflow to Jan of next year
+                year++;
+                countSundays(sundays, year, endYear, months, overflow);
+            }
         }
     }
-
-    return sundays;
 }
 
 
@@ -68,6 +68,7 @@ int main() {
 
     int startYear = 1901,
         endYear = 2000,
+        sundays = 0,
         Jan = 31,
         Feb = 28,
         Mar = 31,
@@ -96,7 +97,9 @@ int main() {
         Dec
         };
 
-    cout << "Answer found: " << countSundays(startYear, endYear, months) << endl;
+    countSundays(sundays, startYear, endYear, months);
+
+    cout << "Answer found: " << sundays << endl;
 
     return 0;
 }
