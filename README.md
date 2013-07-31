@@ -168,11 +168,13 @@ Project Euler solutions in Python 2 www.projecteuler.net/
 
 <h4>Problem 18</h4>
 <ul>
-    <li>Incomplete 7/22/2013</li>
-    <li></li>
+    <li>Done! 7/31/2013</li>
+    <li><a href="http://projecteuler.net/problem=18">projecteuler.net/problem=18</a></li>
     <li>Tried altering the algorithm from problem 17, but was inconclusive</li>
     <li>Tried a simpler approach. Start from the bottom and add the numbers upwards to ensure the highest possible sum</li>
     <li>Issue with comparing sums: iteration goes out of bounds</li>
+    <li>[Fixed!] Made a seperate function, largest_sum(), to simplify things</li>
+    <li>Got rid of the useless row size counter. Only made it more complicated.</li>
 </ul>
 
 <h4>Problem 20</h4>
