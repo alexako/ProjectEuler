@@ -1,27 +1,19 @@
 #!/bin/python
 
 
+def largest_sum(num1, num2, num3):
+    if (num2 > num3):
+        return num1 + num2
+    return num1 + num3
+
 def find_path_of_largest(triangle):
     """ Adding from bottom up """
 
     tri = [[int(num) for num in row.split()] for row in triangle.split('\n')]
 
-    size = len(tri) - 3     # Start at second to last row
-
-    while size:
-        for row in range(size, 0, -1):
-            for digit in range(row+1):
-
-                if tri[row][digit] + tri[row + 1][digit] >= tri[row][digit] + tri[row + 1][digit + 1]:
-                    print "Added: ", tri[row][digit], "+", tri[row+1][digit]
-                    tri[row][digit] = tri[row][digit] + tri[row + 1][digit]
-                    print "New sum: ", tri[row][digit]
-                else:
-                    print "Added: ", tri[row][digit], "+", tri[row+1][digit]
-                    tri[row][digit] = tri[row][digit] + tri[row + 1][digit + 1]
-                    print "New sum: ", tri[row][digit]
-
-        size -= 1
+    for row in range(len(tri)-2, 0, -1):
+        for digit in range(row):
+            tri[row-1][digit] = largest_sum(tri[row-1][digit], tri[row][digit], tri[row][digit+1])
 
     return tri[0][0]
 
@@ -52,4 +44,4 @@ if __name__ == '__main__':
                 04 62 98 27 23 09 70 98 73 93 38 53 60 04 23
                 """
 
-    print "Answer found: ", find_path_of_largest(triangle1)
+    print "Answer found: ", find_path_of_largest(triangle2)
