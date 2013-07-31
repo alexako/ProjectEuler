@@ -175,6 +175,7 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Issue with comparing sums: iteration goes out of bounds</li>
     <li>[Fixed!] Made a seperate function, largest_sum(), to simplify things</li>
     <li>Got rid of the useless row size counter. Only made it more complicated.</li>
+    <li>Used the same concepts in C++ solution</li>
 </ul>
 
 <h4>Problem 20</h4>
