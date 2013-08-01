@@ -178,6 +178,16 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Used the same concepts in C++ solution</li>
 </ul>
 
+<h4>Problem 19</h4>
+<ul>
+    <li>Incomplete 8/1/2013</li>
+    <li>In C++, stuck in infinite recursion</li>
+    <li>Counter did not increment in recursion. Used pass-by-reference to fix</li>
+    <li>In Python, tried a completely different approach. Still used same isLeapYear() function</li>
+    <li>Seems more efficent, however it produces the wrong final answer.</li>
+    <li>After 1911ish, off-by-one error somewhere</li>
+</ul>
+
 <h4>Problem 20</h4>
 <ul>
     <li>Done! 7/18/2013</li>
