@@ -35,29 +35,26 @@ bool sundayStart(int days, bool leapYear) {
 }
 
 
-void countSundays(int& sundays, int year, int endYear, int months[], int overflow = 2) {
+void countSundays(int& sunday_count, int& year, int endYear, int months[], int overflow = 2) {
     /* January of 1901 starts on Tuesday; has an 'overflow' of 2 */
-    int days;
 
     // Add overflow to January
     months[0] = months[0] + overflow;
 
     while (year <= endYear) {
         for (int month = 0; month < 12; month++) {
-            if (sundayStart(months[month], isLeapYear(year)))
-                sundays++;
 
-            days = months[month];
-            while (days > 0) {
-                days -= 7;
-            }
-            overflow = days * -1;
+            // sundayStart() and isLeapYear() are bool types and contain no loops
+            if (sundayStart(months[month], isLeapYear(year)))
+                sunday_count++;
+
+            overflow = months[month] % 7;
 
             if (month < 11)
                 months[month+1] = months[month+1] + overflow;
-            else { // if end of year, add overflow to Jan of next year
+            else {// if end of year, add overflow to Jan of next year
                 year++;
-                countSundays(sundays, year, endYear, months, overflow);
+                countSundays(sunday_count, year, endYear, months, overflow);
             }
         }
     }
