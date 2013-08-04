@@ -210,6 +210,13 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Getting float-value error</li>
 </ul>
 
+<h4>Problem</h4>
+<ul>
+    <li>Done! 8/4/2013</li>
+    <li>Fairly straight forward</li>
+    <li>Used list comprehensions, enumerate(), and, the recently learned, replace()</li>
+</ul>
+
 <h4>Problem 25</h4>
 <ul>
     <li>Done! 7/18/2013</li>
