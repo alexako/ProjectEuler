@@ -199,6 +199,14 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Turned the factorial into a string to get the sum of digits</li>
 </ul>
 
+<h4>Problem 21</h4>
+<ul>
+    <li>Done! 8/2/2013</li>
+    <li><a href="http://projecteuler.net/problem=21">projecteuler.net/problem=21</a></li>
+    <li>Used a dictionary to store number[key] and sum of divisors[value]</li>
+    <li>Reduced to list comprehensions</li>
+</ul>
+
 <h4>Problem 25</h4>
 <ul>
     <li>Done! 7/18/2013</li>
