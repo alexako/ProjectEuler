@@ -210,11 +210,20 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Getting float-value error</li>
 </ul>
 
-<h4>Problem</h4>
+<h4>Problem 22</h4>
 <ul>
     <li>Done! 8/4/2013</li>
+    <li><a href="http://projecteuler.net/problem=22">projecteuler.net/problem=22</a></li>
     <li>Fairly straight forward</li>
     <li>Used list comprehensions, enumerate(), and, the recently learned, replace()</li>
+</ul>
+
+<h4>Problem 23</h4>
+<ul>
+    <li>Incomplete 8/4/2013</li>
+    <li><a href="http://projecteuler.net/problem=23">projecteuler.net/problem=23</a></li>
+    <li>Need to optimize isAbundant(); does not complete in a reasonable amount of time</li>
+    <li>After some research, I've learned about generators to get factors of an int</li>
 </ul>
 
 <h4>Problem 25</h4>
