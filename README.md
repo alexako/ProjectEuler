@@ -180,9 +180,9 @@ Project Euler solutions in Python 2 www.projecteuler.net/
 
 <h4>Problem 19</h4>
 <ul>
-    <li>Incomplete 8/1/2013</li>
+    <li>Done! 8/3/2013</li>
     <li><a href="http://projecteuler.net/problem=19">projecteuler.net/problem=19</a></li>
-    <li>In C++, stuck in infinite recursion</li>
+    <li>In C++ [Incomplete], stuck in infinite recursion</li>
     <li>Counter did not increment in recursion. Used pass-by-reference to fix</li>
     <li>In Python, tried a completely different approach. Still used same isLeapYear() function</li>
     <li>Seems more efficent, however it produces the wrong final answer.</li>
@@ -203,8 +203,11 @@ Project Euler solutions in Python 2 www.projecteuler.net/
 <ul>
     <li>Done! 8/2/2013</li>
     <li><a href="http://projecteuler.net/problem=21">projecteuler.net/problem=21</a></li>
+    <li>Completed Level 1!</li>
     <li>Used a dictionary to store number[key] and sum of divisors[value]</li>
     <li>Reduced to list comprehensions</li>
+    <li>Applying similar concepts to C++ solution, but is difficult to replace dictionaries</li>
+    <li>Getting float-value error</li>
 </ul>
 
 <h4>Problem 25</h4>
