@@ -186,8 +186,8 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Counter did not increment in recursion. Used pass-by-reference to fix</li>
     <li>In Python, tried a completely different approach. Still used same isLeapYear() function</li>
     <li>Seems more efficent, however it produces the wrong final answer.</li>
-    <li>After 1911ish, off-by-one error somewhere</li>
-    <li>[Fixed] But still produces an incorrect solution</li>
+    <li>Off-by-one error somewhere</li>
+    <li>[Temp fix] Started counter at 1</li>
 </ul>
 
 <h4>Problem 20</h4>
