@@ -26,14 +26,26 @@ def factorSum(num):
     return num < sum(set(factors(num)))
 
 
-def abundants(num):
+def getAbundants(num):
     yield [n for n in xrange(12, num) if factorSum(n)]
 
+
+def getAbundantSums(nums, limit):
+
+    sums = []
+    for i in nums:
+        for j in nums:
+            n = i + j
+            if n < limit:
+                sums.append(n)
+
+    return set(sorted(sums))
 
 if __name__ == '__main__':
     limit = 28123
     limit += 1
 
-    a = [num for num in abundants(limit)]
-    abunds = [num1 - num2 for num2 in xrange(1, limit) for num1 in a[0]]
-    print "Answer found: ", sum(abunds)
+    abundants = [num for num in getAbundants(limit)]
+    sums = getAbundantSums(abundants[0], limit)
+
+    print "Answer found: ", sum([num for num in xrange(1, limit) if num not in sums])
