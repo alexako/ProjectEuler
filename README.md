@@ -224,6 +224,7 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li><a href="http://projecteuler.net/problem=23">projecteuler.net/problem=23</a></li>
     <li>Need to optimize isAbundant(); does not complete in a reasonable amount of time</li>
     <li>After some research, I've learned about generators to get factors of an int</li>
+    <li>8/5/2013 When run, outputs "KILLED"</li>
 </ul>
 
 <h4>Problem 25</h4>
