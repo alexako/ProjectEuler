@@ -227,6 +227,14 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>8/5/2013 When run, outputs "KILLED"</li>
 </ul>
 
+<h4>Problem 24</h4>
+<ul>
+    <li>Done! 8/10/2013</li>
+    <li><a href="http://projecteuler.net/problem=24">projecteuler.net/problem=24</a></li>
+    <li>Took way too long to process such a long list</li>
+    <li>Did research and found permutations in itertools. Easy after that.</li>
+</ul>
+
 <h4>Problem 25</h4>
 <ul>
     <li>Done! 7/18/2013</li>
