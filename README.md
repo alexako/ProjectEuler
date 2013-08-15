@@ -246,8 +246,17 @@ Project Euler solutions in Python 2 www.projecteuler.net/
 <h4>Problem 29</h4>
 <ul>
     <li>Done! 7/24/2013</li>
+    <li><a href="http://projecteuler.net/problem=29">projecteuler.net/problem=29</a></li>
     <li>Completed in both Python and C++. Was a lot easier to code in Python</li>
     <li>Implemented recently learned concept of vectors (still not confident with them yet)</li>
+</ul>
+
+<h4>Problem 30</h4>
+<ul>
+    <li>Done! 8/15/2013</li>
+    <li><a href="http://projecteuler.net/problem=30">projecteuler.net/problem=30</a></li>
+    <li>Completed in C++</li>
+    <li>Found upper bound and number of digits by multiplying 9 to the nth (i.e. 9^4 is the max of one digit)</li>
 </ul>
 
 <h4>Problem 47</h4>
