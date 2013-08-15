@@ -234,6 +234,15 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Used the same fibonacci series generator from  problem 2 with slight refactorization</li>
 </ul>
 
+<h4>Problem 28</h4>
+<ul>
+    <li>Done! 8/15/2013</li>
+    <li><a href="http://projecteuler.net/problem=28">projecteuler.net/problem=28</a></li>
+    <li>Made a generator for the spiral</li>
+    <li>The numbers added were only the corners; not including 1</li>
+    <li>1st round skipped 1 number, 2nd round skipped 3, and so forth</li>
+</ul>
+
 <h4>Problem 29</h4>
 <ul>
     <li>Done! 7/24/2013</li>
