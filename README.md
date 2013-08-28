@@ -234,6 +234,14 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Used the same fibonacci series generator from  problem 2 with slight refactorization</li>
 </ul>
 
+<h4>Problem 26</h4>
+<ul>
+    <li>Done! 8/11/2013</li>
+    <li>Took forever to figure out</li>
+    <li>After some research, I found and implemented Fermat's little theorem</li>
+    <li>Off by one error somehow. Kludged it for now</li>
+</ul>
+
 <h4>Problem 28</h4>
 <ul>
     <li>Done! 8/15/2013</li>
