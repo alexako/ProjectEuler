@@ -1,8 +1,10 @@
 #!/bin/python
 
+import math
 
 def is_prime(num):
-    for i in range(2, num):
+    limit = int(math.sqrt(num) + 1)
+    for i in range(2, limit):
         if not num % i:
             return False
     return True
