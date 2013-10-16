@@ -267,6 +267,34 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Found upper bound and number of digits by multiplying 9 to the nth (i.e. 9^4 is the max of one digit)</li>
 </ul>
 
+<h4>Problem 34</h4>
+<ul>
+    <li>Done! 10/12/2013</li>
+    <li><a href="http://projecteuler.net/problem=34">projecteuler.net/problem=34</a></li>
+    <li>Completed in Java</li>
+    <li>Fairly straight forward</li>
+    <li>Could have hardcoded the factorials (digits only 0...9) but used a simple function instead</li>
+    <li>Classic off-by-one error in factsum()</li>
+</ul>
+
+<h4>Problem 35</h4>
+<ul>
+    <li>Done! 10/13/2013</li>
+    <li><a href="http://projecteuler.net/problem=35">projecteuler.net/problem=35</a></li>
+    <li>Completed in Java</li>
+    <li>Used strings to rotate numbers</li>
+</ul>
+
+<h4>Problem 42</h4>
+<ul>
+    <li>Done! 10/16/2013</li>
+    <li><a href="http://projecteuler.net/problem=42">projecteuler.net/problem=42</a></li>
+    <li>Completed in Java</li>
+    <li>Learned more Java string methods e.g. contains()</li>
+    <li>Created a list of the triangle numbers</li>
+    <li>Calculated word value using a string and letter index values</li>
+</ul>
+
 <h4>Problem 47</h4>
 <ul>
     <li>Done! 7/24/2013</li>
