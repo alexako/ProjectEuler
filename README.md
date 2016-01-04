@@ -309,3 +309,9 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Another easy one</li>
     <li>Could have done a one-liner but opted for readability instead</li>
 </ul>
+
+<h4>Problem 67</h4>
+<ul>
+    <li>Done! 1/3/2016</li>
+    <li>Used a similar strategy as problem 18, but didn't store each path as arrays. Instead, I started with the largest number, added the largest adjacent number, and so on until reaching the top of the triangle.</li>
+</ul>
