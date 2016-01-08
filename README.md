@@ -285,6 +285,15 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Used strings to rotate numbers</li>
 </ul>
 
+<h4>Problem 40</h4>
+<ul>
+    <li>Done! 1/9/2016</li>
+    <li><a href="http://projecteuler.net/problem=40">projecteuler.net/problem=35</a></li>
+    <li>Very easy. Don't know why I didn't complete it earlier</li>
+    <li>Created string of the irrational and multiplied indices requested</li>
+    <li>Used reduce() and list comprehensions. Not very readable though</li>
+</ul>
+
 <h4>Problem 42</h4>
 <ul>
     <li>Done! 10/16/2013</li>
