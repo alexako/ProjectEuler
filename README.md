@@ -285,6 +285,13 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Used strings to rotate numbers</li>
 </ul>
 
+<h4>Problem 39</h4>
+<ul>
+    <li>Done! 1/13/2016</li>
+    <li><a href="http://projecteuler.net/problem=39">projecteuler.net/problem=35</a></li>
+    <li>Straight forward. Just applied Pythagorean theorem.</li>
+</ul>
+
 <h4>Problem 40</h4>
 <ul>
     <li>Done! 1/9/2016</li>
