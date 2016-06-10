@@ -285,6 +285,22 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Used strings to rotate numbers</li>
 </ul>
 
+<h4>Problem 39</h4>
+<ul>
+    <li>Done! 1/13/2016</li>
+    <li><a href="http://projecteuler.net/problem=39">projecteuler.net/problem=35</a></li>
+    <li>Straight forward. Just applied Pythagorean theorem.</li>
+</ul>
+
+<h4>Problem 40</h4>
+<ul>
+    <li>Done! 1/9/2016</li>
+    <li><a href="http://projecteuler.net/problem=40">projecteuler.net/problem=35</a></li>
+    <li>Very easy. Don't know why I didn't complete it earlier</li>
+    <li>Created string of the irrational and multiplied indices requested</li>
+    <li>Used reduce() and list comprehensions. Not very readable though</li>
+</ul>
+
 <h4>Problem 42</h4>
 <ul>
     <li>Done! 10/16/2013</li>
@@ -308,4 +324,10 @@ Project Euler solutions in Python 2 www.projecteuler.net/
     <li>Done! 7/23/2013</li>
     <li>Another easy one</li>
     <li>Could have done a one-liner but opted for readability instead</li>
+</ul>
+
+<h4>Problem 67</h4>
+<ul>
+    <li>Done! 1/3/2016</li>
+    <li>Used a similar strategy as problem 18, but didn't store each path as arrays. Instead, I started with the largest number, added the largest adjacent number, and so on until reaching the top of the triangle.</li>
 </ul>
